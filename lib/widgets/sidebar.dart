@@ -60,7 +60,7 @@ class CustomSidebar extends ConsumerWidget {
                 const SizedBox(height: 4),
                 if (expanded)
                   const Text(
-                    'morse.play',
+                    'DotDash',
                     style: TextStyle(
                       color: Colors.black87,
                       fontWeight: FontWeight.bold,

@@ -31,7 +31,7 @@ class BrandBar extends StatelessWidget {
       child: Row(
         children: [
           const Spacer(),
-          Text("morse.play", style: GoogleFonts.nabla(fontSize: 36)),
+          Text("DotDash", style: GoogleFonts.nabla(fontSize: 36)),
           const Spacer(),
           InkWell(
             onTap: launchLink,

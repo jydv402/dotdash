@@ -1,5 +1,5 @@
 name: morse_web_play
-description: "A new Flutter project."
+description: "A responsive web application for real-time Morse code conversion, interactive learning, and precise audio playback."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
@@ -37,9 +37,8 @@ dependencies:
   audioplayers: ^6.5.1
   flutter_riverpod: ^3.0.3
   responsive: ^0.3.11+11
-  flutter_launcher_icons: ^0.14.4
   flutter_animate: ^4.5.2
-  google_fonts: ^6.3.2
+  google_fonts: ^8.1.0
   iconify_flutter: ^0.0.7
   url_launcher: ^6.3.2
   logger: ^2.7.0
@@ -56,6 +55,8 @@ dev_dependencies:
   flutter_lints: ^6.0.0
   custom_lint: ^0.8.0
   riverpod_lint: ^3.0.3
+  # package_rename: ^1.10.1
+  flutter_launcher_icons: "^0.14.4"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -96,3 +97,16 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+# package_rename_config:
+#   web:
+#     app_name: "DotDash" # App title & PWA name
+#     short_app_name: "DotDash" # PWA short name (defaults to app_name)
+#     description: "DotDash" # Web app description
+
+flutter_launcher_icons:
+  web:
+    generate: true
+    image_path: "assets/morseLogo"
+    background_color: "#A28EF9"
+    theme_color: "#A28EF9"
