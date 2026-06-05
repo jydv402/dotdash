@@ -15,7 +15,7 @@ class MyApp extends ConsumerWidget {
     final themeMode = ref.watch(themeProvider);
 
     return MaterialApp(
-      title: 'morse.play',
+      title: 'DotDash',
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: themeMode,

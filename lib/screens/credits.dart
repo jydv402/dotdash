@@ -38,7 +38,7 @@ class CreditsPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 24),
                     Text(
-                      'morse.play',
+                      'DotDash',
                       style: Theme.of(context).textTheme.displaySmall?.copyWith(
                         fontWeight: FontWeight.bold,
                         color: colorScheme.onSurface,

@@ -1,11 +1,11 @@
 {
-    "name": "morse_web_play",
-    "short_name": "morse_web_play",
+    "name": "DotDash",
+    "short_name": "DotDash",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#A28EF9",
     "theme_color": "#A28EF9",
-    "description": "A new Flutter project.",
+    "description": "DotDash",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
